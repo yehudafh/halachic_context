@@ -1,0 +1,21 @@
+{
+  "title": "הקשר הלכתי",
+  "config": {
+    "step": {
+      "user": {
+        "title": "הגדרת הקשר הלכתי",
+        "description": "בחר אפשרויות תצורה לתוסף ההלכתי"
+      }
+    }
+  },
+  "sensor": {
+    "night_saturday_or_holiday": {
+      "name": "ליל שבת או חג",
+      "description": "נכון אם כעת זה ליל שבת או חג ויש איסור מלאכה"
+    },
+    "day_saturday_or_holiday": {
+      "name": "יום שבת או חג",
+      "description": "נכון אם כעת זה יום שבת או חג ויש איסור מלאכה"
+    }
+  }
+}

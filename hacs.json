@@ -1,0 +1,8 @@
+{
+  "name": "Halachic Context",
+  "content_in_root": true,
+  "domains": ["binary_sensor"],
+  "country": "IL",
+  "homeassistant": "2023.0.0",
+  "render_readme": true
+}

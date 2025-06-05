@@ -1,0 +1,11 @@
+{
+  "title": "Halachic Context",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Halachic Context Setup",
+        "description": "Configure halachic sensors for Shabbat and holidays"
+      }
+    }
+  }
+}

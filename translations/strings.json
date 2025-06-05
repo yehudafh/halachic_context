@@ -1,0 +1,14 @@
+{
+  "title": "Halachic Context",
+  "description": "Provides halachic sensors for Shabbat and holidays.",
+  "sensor": {
+    "night_saturday_or_holiday": {
+      "name": "Night of Shabbat or Holiday",
+      "description": "True if it's the night of Shabbat or Yom Tov with melacha prohibition"
+    },
+    "day_saturday_or_holiday": {
+      "name": "Day of Shabbat or Holiday",
+      "description": "True if it's the daytime of Shabbat or Yom Tov with melacha prohibition"
+    }
+  }
+}
