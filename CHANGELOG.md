@@ -1,5 +1,8 @@
 # Changelog – Halachic Context
 
+## 1.0.2 - 2025-06-08
+- Added Readme
+
 ## 1.0.1 – 2025-06-08
 - Added `TachanunStatusSensor` based on Hebrew calendar logic from siddur
 - Improved Hebrew date parsing from `sensor.jewish_calendar_date`
