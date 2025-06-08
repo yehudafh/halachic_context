@@ -1,7 +1,7 @@
 {
   "domain": "halachic_context",
   "name": "Halachic Context",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "documentation": "https://github.com/example/halachic_context",
   "requirements": [],
   "dependencies": ["jewish_calendar"],
