@@ -1,11 +1,13 @@
 {
   "domain": "halachic_context",
   "name": "Halachic Context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "documentation": "https://github.com/example/halachic_context",
   "requirements": [],
   "dependencies": [],
-  "codeowners": ["@yourname"],
+  "codeowners": ["@yehudafh"],
   "config_flow": true,
-  "iot_class": "local_polling"
+  "iot_class": "local_polling",
+  "logo": "logo.png",
+  "icon": "icon.png"
 }

@@ -3,8 +3,24 @@
   "config": {
     "step": {
       "user": {
-        "title": "Halachic Context Setup",
-        "description": "Configure halachic sensors for Shabbat and holidays"
+        "title": "Halachic Context Setup"
+      }
+    }
+  },
+  "entity": {
+    "sensor.halachic_context_status": {
+      "name": "Halachic Status",
+      "state": {
+        "night": "Night",
+        "day": "Day",
+        "weekday": "Weekday"
+      }
+    },
+    "sensor.tachanun_status": {
+      "name": "Tachanun Today",
+      "state": {
+        "yes": "Say Tachanun",
+        "no": "Do Not Say Tachanun"
       }
     }
   }

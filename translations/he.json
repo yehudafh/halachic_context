@@ -4,18 +4,33 @@
     "step": {
       "user": {
         "title": "הגדרת הקשר הלכתי",
-        "description": "בחר אפשרויות תצורה לתוסף ההלכתי"
+        "description": "תוסף זה מוסיף ישות אחת המתעדכנת לפי הלוח היהודי וזמני שבת/חג."
       }
+    },
+    "abort": {
+      "single_instance_allowed": "ניתן להוסיף מופע אחד בלבד."
+    },
+    "create_entry": {
+      "default": "ההגדרה נשמרה בהצלחה."
     }
   },
-  "sensor": {
-    "night_saturday_or_holiday": {
-      "name": "ליל שבת או חג",
-      "description": "נכון אם כעת זה ליל שבת או חג ויש איסור מלאכה"
-    },
-    "day_saturday_or_holiday": {
-      "name": "יום שבת או חג",
-      "description": "נכון אם כעת זה יום שבת או חג ויש איסור מלאכה"
+  "entity": {
+    "sensor": {
+      "halachic_context_status": {
+        "name": "סטטוס שבת/חג",
+        "state": {
+          "weekday": "יום חול",
+          "night": "ליל שבת/חג",
+          "day": "יום שבת/חג"
+        }
+      },
+      "sensor.tachanun_status": {
+        "name": "תחנון היום",
+        "state": {
+          "yes": "אומרים תחנון",
+          "no": "לא אומרים תחנון"
+        }
+      }
     }
   }
 }
